@@ -4,3 +4,4 @@ Git	has a mutalbe index caled stage.
 Git tracks changes of files.
 Creating a new branch is quick.
 Creating a new branch is quick AND simple.
+this is a test add merge.
