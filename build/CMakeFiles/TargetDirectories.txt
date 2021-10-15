@@ -1,0 +1,3 @@
+/home/mjc/cpptest/build/CMakeFiles/rebuild_cache.dir
+/home/mjc/cpptest/build/CMakeFiles/edit_cache.dir
+/home/mjc/cpptest/build/CMakeFiles/cpptest.dir

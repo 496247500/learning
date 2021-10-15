@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mjc/cpptest/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/home/mjc/cpptest/include  -g   -std=gnu++11 -o CMakeFiles/cpptest.dir/src/express.cc.o -c /home/mjc/cpptest/src/express.cc",
+  "file": "/home/mjc/cpptest/src/express.cc"
+}
+]

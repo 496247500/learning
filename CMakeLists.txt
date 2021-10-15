@@ -6,19 +6,20 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #判断编译器类型,如果是gcc编译器,则在编译选项中加入c++11支持
 set (CMAKE_CXX_STANDARD 11)
 # Set the project name
-project (mixtypes)
+
+project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/mixtypes.cc
+    ./src/express.cc
 )
 
 # Add an executable with the above sources
-add_executable(mixtypes ${SOURCES})
+add_executable(cpptest ${SOURCES})
 
 # Set the directories that should be included in the build command for this target
 # when running g++ these will be included as -I/directory/path/
-target_include_directories(mixtypes
+target_include_directories(cpptest
     PRIVATE 
         ${PROJECT_SOURCE_DIR}/include
 )

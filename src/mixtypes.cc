@@ -1,7 +1,6 @@
 //some types combinations
 #include<iostream>
-struct antarctica_year_end
-{
+struct antarctica_year_end{
   int year;
   int month;
   int date;
@@ -19,6 +18,6 @@ int main(){
   const antarctica_year_end ** ppa =arp;
   auto ppb =arp;
   std::cout << (*ppa)->year << std::endl;
-  std::cout <<(*(ppb+1))->year << std::endl;
+  std::cout << (*(ppb+1))->year << std::endl;
   return 0;
 }
