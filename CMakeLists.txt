@@ -11,7 +11,7 @@ project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/express.cc
+    ./src/plus_one.cc
 )
 
 # Add an executable with the above sources
