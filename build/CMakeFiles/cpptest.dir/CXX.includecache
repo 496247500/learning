@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mjc/cpptest/src/plus_one.cc
+/home/mjc/cpptest/src/compstr2.cc
 iostream
+-
+string
 -
 

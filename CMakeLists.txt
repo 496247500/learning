@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #判断编译器类型,如果是gcc编译器,则在编译选项中加入c++11支持
 set (CMAKE_CXX_STANDARD 11)
 # Set the project name
-
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
 project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/plus_one.cc
+    ./src/compstr2.cc
 )
 
 # Add an executable with the above sources

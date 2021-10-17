@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/mjc/cpptest/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/home/mjc/cpptest/include  -g   -std=gnu++11 -o CMakeFiles/cpptest.dir/src/plus_one.cc.o -c /home/mjc/cpptest/src/plus_one.cc",
-  "file": "/home/mjc/cpptest/src/plus_one.cc"
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/home/mjc/cpptest/include   -Wall -g   -std=gnu++11 -o CMakeFiles/cpptest.dir/src/compstr2.cc.o -c /home/mjc/cpptest/src/compstr2.cc",
+  "file": "/home/mjc/cpptest/src/compstr2.cc"
 }
 ]
