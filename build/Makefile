@@ -123,32 +123,32 @@ cpptest/fast:
 	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/compstr2.o: src/compstr2.cc.o
+src/textin2.o: src/textin2.cc.o
 
-.PHONY : src/compstr2.o
+.PHONY : src/textin2.o
 
 # target to build an object file
-src/compstr2.cc.o:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/compstr2.cc.o
-.PHONY : src/compstr2.cc.o
+src/textin2.cc.o:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/textin2.cc.o
+.PHONY : src/textin2.cc.o
 
-src/compstr2.i: src/compstr2.cc.i
+src/textin2.i: src/textin2.cc.i
 
-.PHONY : src/compstr2.i
+.PHONY : src/textin2.i
 
 # target to preprocess a source file
-src/compstr2.cc.i:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/compstr2.cc.i
-.PHONY : src/compstr2.cc.i
+src/textin2.cc.i:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/textin2.cc.i
+.PHONY : src/textin2.cc.i
 
-src/compstr2.s: src/compstr2.cc.s
+src/textin2.s: src/textin2.cc.s
 
-.PHONY : src/compstr2.s
+.PHONY : src/textin2.s
 
 # target to generate assembly for a file
-src/compstr2.cc.s:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/compstr2.cc.s
-.PHONY : src/compstr2.cc.s
+src/textin2.cc.s:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/textin2.cc.s
+.PHONY : src/textin2.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpptest"
-	@echo "... src/compstr2.o"
-	@echo "... src/compstr2.i"
-	@echo "... src/compstr2.s"
+	@echo "... src/textin2.o"
+	@echo "... src/textin2.i"
+	@echo "... src/textin2.s"
 .PHONY : help
 
 

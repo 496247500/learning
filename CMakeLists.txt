@@ -5,13 +5,14 @@ cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #判断编译器类型,如果是gcc编译器,则在编译选项中加入c++11支持
 set (CMAKE_CXX_STANDARD 11)
-# Set the project name
+
 set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
+# Set the project name
 project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/compstr2.cc
+    ./src/textin2.cc
 )
 
 # Add an executable with the above sources
