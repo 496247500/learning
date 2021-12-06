@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/cpptest.dir/src/chapter6_1.cc.o  -o cpptest 
+/usr/bin/x86_64-linux-gnu-g++-5    -Wall   CMakeFiles/cpptest.dir/src/chapter6_8.cc.o  -o cpptest 

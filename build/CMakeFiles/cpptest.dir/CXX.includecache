@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mjc/works/learning/src/chapter6_1.cc
+/home/mjc/works/learning/src/chapter6_8.cc
 iostream
+-
+cctype
 -
 
