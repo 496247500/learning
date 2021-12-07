@@ -123,32 +123,32 @@ cpptest/fast:
 	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/chapter6_8.o: src/chapter6_8.cc.o
+src/chapter6_10.o: src/chapter6_10.cc.o
 
-.PHONY : src/chapter6_8.o
+.PHONY : src/chapter6_10.o
 
 # target to build an object file
-src/chapter6_8.cc.o:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_8.cc.o
-.PHONY : src/chapter6_8.cc.o
+src/chapter6_10.cc.o:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.o
+.PHONY : src/chapter6_10.cc.o
 
-src/chapter6_8.i: src/chapter6_8.cc.i
+src/chapter6_10.i: src/chapter6_10.cc.i
 
-.PHONY : src/chapter6_8.i
+.PHONY : src/chapter6_10.i
 
 # target to preprocess a source file
-src/chapter6_8.cc.i:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_8.cc.i
-.PHONY : src/chapter6_8.cc.i
+src/chapter6_10.cc.i:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.i
+.PHONY : src/chapter6_10.cc.i
 
-src/chapter6_8.s: src/chapter6_8.cc.s
+src/chapter6_10.s: src/chapter6_10.cc.s
 
-.PHONY : src/chapter6_8.s
+.PHONY : src/chapter6_10.s
 
 # target to generate assembly for a file
-src/chapter6_8.cc.s:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_8.cc.s
-.PHONY : src/chapter6_8.cc.s
+src/chapter6_10.cc.s:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.s
+.PHONY : src/chapter6_10.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpptest"
-	@echo "... src/chapter6_8.o"
-	@echo "... src/chapter6_8.i"
-	@echo "... src/chapter6_8.s"
+	@echo "... src/chapter6_10.o"
+	@echo "... src/chapter6_10.i"
+	@echo "... src/chapter6_10.s"
 .PHONY : help
 
 
