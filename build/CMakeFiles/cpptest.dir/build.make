@@ -57,38 +57,38 @@ include CMakeFiles/cpptest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpptest.dir/flags.make
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.o: CMakeFiles/cpptest.dir/flags.make
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.o: ../src/chapter6_11.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mjc/learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpptest.dir/src/chapter6_11.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpptest.dir/src/chapter6_11.cc.o -c /home/mjc/learning/src/chapter6_11.cc
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.o: CMakeFiles/cpptest.dir/flags.make
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.o: ../src/chapter6_12.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mjc/learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpptest.dir/src/chapter6_12.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpptest.dir/src/chapter6_12.cc.o -c /home/mjc/learning/src/chapter6_12.cc
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpptest.dir/src/chapter6_11.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mjc/learning/src/chapter6_11.cc > CMakeFiles/cpptest.dir/src/chapter6_11.cc.i
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpptest.dir/src/chapter6_12.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mjc/learning/src/chapter6_12.cc > CMakeFiles/cpptest.dir/src/chapter6_12.cc.i
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpptest.dir/src/chapter6_11.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mjc/learning/src/chapter6_11.cc -o CMakeFiles/cpptest.dir/src/chapter6_11.cc.s
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpptest.dir/src/chapter6_12.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mjc/learning/src/chapter6_12.cc -o CMakeFiles/cpptest.dir/src/chapter6_12.cc.s
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.requires:
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.requires:
 
-.PHONY : CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.requires
+.PHONY : CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.requires
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.provides: CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.requires
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.provides.build
-.PHONY : CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.provides
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.provides: CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.requires
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.provides.build
+.PHONY : CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.provides
 
-CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.provides.build: CMakeFiles/cpptest.dir/src/chapter6_11.cc.o
+CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.provides.build: CMakeFiles/cpptest.dir/src/chapter6_12.cc.o
 
 
 # Object files for target cpptest
 cpptest_OBJECTS = \
-"CMakeFiles/cpptest.dir/src/chapter6_11.cc.o"
+"CMakeFiles/cpptest.dir/src/chapter6_12.cc.o"
 
 # External object files for target cpptest
 cpptest_EXTERNAL_OBJECTS =
 
-cpptest: CMakeFiles/cpptest.dir/src/chapter6_11.cc.o
+cpptest: CMakeFiles/cpptest.dir/src/chapter6_12.cc.o
 cpptest: CMakeFiles/cpptest.dir/build.make
 cpptest: CMakeFiles/cpptest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mjc/learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpptest"
@@ -99,7 +99,7 @@ CMakeFiles/cpptest.dir/build: cpptest
 
 .PHONY : CMakeFiles/cpptest.dir/build
 
-CMakeFiles/cpptest.dir/requires: CMakeFiles/cpptest.dir/src/chapter6_11.cc.o.requires
+CMakeFiles/cpptest.dir/requires: CMakeFiles/cpptest.dir/src/chapter6_12.cc.o.requires
 
 .PHONY : CMakeFiles/cpptest.dir/requires
 
