@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mjc/works/learning
+CMAKE_SOURCE_DIR = /home/mjc/learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mjc/works/learning/build
+CMAKE_BINARY_DIR = /home/mjc/learning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/works/learning/build/CMakeFiles /home/mjc/works/learning/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/learning/build/CMakeFiles /home/mjc/learning/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/works/learning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/learning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ cpptest/fast:
 	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/chapter6_10.o: src/chapter6_10.cc.o
+src/chapter6_11.o: src/chapter6_11.cc.o
 
-.PHONY : src/chapter6_10.o
+.PHONY : src/chapter6_11.o
 
 # target to build an object file
-src/chapter6_10.cc.o:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.o
-.PHONY : src/chapter6_10.cc.o
+src/chapter6_11.cc.o:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_11.cc.o
+.PHONY : src/chapter6_11.cc.o
 
-src/chapter6_10.i: src/chapter6_10.cc.i
+src/chapter6_11.i: src/chapter6_11.cc.i
 
-.PHONY : src/chapter6_10.i
+.PHONY : src/chapter6_11.i
 
 # target to preprocess a source file
-src/chapter6_10.cc.i:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.i
-.PHONY : src/chapter6_10.cc.i
+src/chapter6_11.cc.i:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_11.cc.i
+.PHONY : src/chapter6_11.cc.i
 
-src/chapter6_10.s: src/chapter6_10.cc.s
+src/chapter6_11.s: src/chapter6_11.cc.s
 
-.PHONY : src/chapter6_10.s
+.PHONY : src/chapter6_11.s
 
 # target to generate assembly for a file
-src/chapter6_10.cc.s:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_10.cc.s
-.PHONY : src/chapter6_10.cc.s
+src/chapter6_11.cc.s:
+	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter6_11.cc.s
+.PHONY : src/chapter6_11.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpptest"
-	@echo "... src/chapter6_10.o"
-	@echo "... src/chapter6_10.i"
-	@echo "... src/chapter6_10.s"
+	@echo "... src/chapter6_11.o"
+	@echo "... src/chapter6_11.i"
+	@echo "... src/chapter6_11.s"
 .PHONY : help
 
 
