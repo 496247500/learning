@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpptest.dir/src/chapter6_12.cc.o"
-  "cpptest.pdb"
+  "CMakeFiles/cpptest.dir/src/chapter6_15.cc.o"
   "cpptest"
+  "cpptest.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

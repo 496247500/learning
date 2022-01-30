@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mjc/learning/src/chapter6_12.cc
+/home/mjc/learning/src/chapter6_15.cc
 iostream
+-
+fstream
 -
 

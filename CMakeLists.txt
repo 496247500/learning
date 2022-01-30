@@ -12,7 +12,7 @@ project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/chapter6_12.cc
+    ./src/chapter6_15.cc
 )
 
 # Add an executable with the above sources
@@ -21,6 +21,6 @@ add_executable(cpptest ${SOURCES})
 # Set the directories that should be included in the build command for this target
 # when running g++ these will be included as -I/directory/path/
 target_include_directories(cpptest
-    PRIVATE 
+    PRIVATE
         ${PROJECT_SOURCE_DIR}/include
 )
