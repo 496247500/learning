@@ -12,7 +12,7 @@ project (cpptest)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/chapter6_15.cc
+    ./src/chapter7_4.cc
 )
 
 # Add an executable with the above sources
