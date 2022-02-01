@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall   CMakeFiles/cpptest.dir/src/chapter7_11.cc.o  -o cpptest 
+/usr/bin/c++   -Wall  -rdynamic CMakeFiles/cpptest.dir/src/chapter7_18.cc.o  -o cpptest 
