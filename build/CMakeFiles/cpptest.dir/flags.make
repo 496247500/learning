@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mjc/workspace/learning/include 
+CXX_INCLUDES = -I/home/mjc/workspace/learning/include -I/home/mjc/workspace/learninginclude 
 

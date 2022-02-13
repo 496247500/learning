@@ -8,11 +8,14 @@ set (CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
 # Set the project name
+# add headfile
+include_directories(include)
 project (cpptest)
-
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/chapter8_15.cc
+    ./src/chapter9_2.cc
+    ./src/chapter9_3.cc
+
 )
 
 # Add an executable with the above sources
@@ -22,5 +25,5 @@ add_executable(cpptest ${SOURCES})
 # when running g++ these will be included as -I/directory/path/
 target_include_directories(cpptest
     PRIVATE
-        ${PROJECT_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}include
 )
