@@ -1,3 +1,3 @@
-/home/mjc/learning/build/CMakeFiles/rebuild_cache.dir
-/home/mjc/learning/build/CMakeFiles/edit_cache.dir
-/home/mjc/learning/build/CMakeFiles/cpptest.dir
+/home/mjc/workspace/learning/build/CMakeFiles/rebuild_cache.dir
+/home/mjc/workspace/learning/build/CMakeFiles/cpptest.dir
+/home/mjc/workspace/learning/build/CMakeFiles/edit_cache.dir

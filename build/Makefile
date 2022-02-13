@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mjc/learning
+CMAKE_SOURCE_DIR = /home/mjc/workspace/learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mjc/learning/build
+CMAKE_BINARY_DIR = /home/mjc/workspace/learning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,8 +89,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/learning/build/CMakeFiles /home/mjc/learning/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/workspace/learning/build/CMakeFiles /home/mjc/workspace/learning/build/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/learning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjc/workspace/learning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ cpptest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/chapter8_9.o: src/chapter8_9.cc.o
+src/chapter8_14.o: src/chapter8_14.cc.o
 
-.PHONY : src/chapter8_9.o
+.PHONY : src/chapter8_14.o
 
 # target to build an object file
-src/chapter8_9.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_9.cc.o
-.PHONY : src/chapter8_9.cc.o
+src/chapter8_14.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_14.cc.o
+.PHONY : src/chapter8_14.cc.o
 
-src/chapter8_9.i: src/chapter8_9.cc.i
+src/chapter8_14.i: src/chapter8_14.cc.i
 
-.PHONY : src/chapter8_9.i
+.PHONY : src/chapter8_14.i
 
 # target to preprocess a source file
-src/chapter8_9.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_9.cc.i
-.PHONY : src/chapter8_9.cc.i
+src/chapter8_14.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_14.cc.i
+.PHONY : src/chapter8_14.cc.i
 
-src/chapter8_9.s: src/chapter8_9.cc.s
+src/chapter8_14.s: src/chapter8_14.cc.s
 
-.PHONY : src/chapter8_9.s
+.PHONY : src/chapter8_14.s
 
 # target to generate assembly for a file
-src/chapter8_9.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_9.cc.s
-.PHONY : src/chapter8_9.cc.s
+src/chapter8_14.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter8_14.cc.s
+.PHONY : src/chapter8_14.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpptest"
-	@echo "... src/chapter8_9.o"
-	@echo "... src/chapter8_9.i"
-	@echo "... src/chapter8_9.s"
+	@echo "... src/chapter8_14.o"
+	@echo "... src/chapter8_14.i"
+	@echo "... src/chapter8_14.s"
 .PHONY : help
 
 
