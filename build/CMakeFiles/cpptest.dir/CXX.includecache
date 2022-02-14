@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/chapter9_1.h
-
-/home/mjc/workspace/learning/src/chapter9_3.cc
+/home/mjc/workspace/learning/src/chapter9_9.cc
 iostream
 -
-cmath
--
-chapter9_1.h
-/home/mjc/workspace/learning/src/chapter9_1.h
 

@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mjc/workspace/learning/src/chapter9_2.cc" "/home/mjc/workspace/learning/build/CMakeFiles/cpptest.dir/src/chapter9_2.cc.o"
-  "/home/mjc/workspace/learning/src/chapter9_3.cc" "/home/mjc/workspace/learning/build/CMakeFiles/cpptest.dir/src/chapter9_3.cc.o"
+  "/home/mjc/workspace/learning/src/chapter9_9.cc" "/home/mjc/workspace/learning/build/CMakeFiles/cpptest.dir/src/chapter9_9.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
