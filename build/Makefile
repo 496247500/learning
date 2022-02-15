@@ -143,32 +143,59 @@ cpptest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/chapter9_9.o: src/chapter9_9.cc.o
+src/chapter9_12.o: src/chapter9_12.cc.o
 
-.PHONY : src/chapter9_9.o
+.PHONY : src/chapter9_12.o
 
 # target to build an object file
-src/chapter9_9.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_9.cc.o
-.PHONY : src/chapter9_9.cc.o
+src/chapter9_12.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_12.cc.o
+.PHONY : src/chapter9_12.cc.o
 
-src/chapter9_9.i: src/chapter9_9.cc.i
+src/chapter9_12.i: src/chapter9_12.cc.i
 
-.PHONY : src/chapter9_9.i
+.PHONY : src/chapter9_12.i
 
 # target to preprocess a source file
-src/chapter9_9.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_9.cc.i
-.PHONY : src/chapter9_9.cc.i
+src/chapter9_12.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_12.cc.i
+.PHONY : src/chapter9_12.cc.i
 
-src/chapter9_9.s: src/chapter9_9.cc.s
+src/chapter9_12.s: src/chapter9_12.cc.s
 
-.PHONY : src/chapter9_9.s
+.PHONY : src/chapter9_12.s
 
 # target to generate assembly for a file
-src/chapter9_9.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_9.cc.s
-.PHONY : src/chapter9_9.cc.s
+src/chapter9_12.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_12.cc.s
+.PHONY : src/chapter9_12.cc.s
+
+src/chapter9_13.o: src/chapter9_13.cc.o
+
+.PHONY : src/chapter9_13.o
+
+# target to build an object file
+src/chapter9_13.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_13.cc.o
+.PHONY : src/chapter9_13.cc.o
+
+src/chapter9_13.i: src/chapter9_13.cc.i
+
+.PHONY : src/chapter9_13.i
+
+# target to preprocess a source file
+src/chapter9_13.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_13.cc.i
+.PHONY : src/chapter9_13.cc.i
+
+src/chapter9_13.s: src/chapter9_13.cc.s
+
+.PHONY : src/chapter9_13.s
+
+# target to generate assembly for a file
+src/chapter9_13.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/chapter9_13.cc.s
+.PHONY : src/chapter9_13.cc.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpptest"
-	@echo "... src/chapter9_9.o"
-	@echo "... src/chapter9_9.i"
-	@echo "... src/chapter9_9.s"
+	@echo "... src/chapter9_12.o"
+	@echo "... src/chapter9_12.i"
+	@echo "... src/chapter9_12.s"
+	@echo "... src/chapter9_13.o"
+	@echo "... src/chapter9_13.i"
+	@echo "... src/chapter9_13.s"
 .PHONY : help
 
 

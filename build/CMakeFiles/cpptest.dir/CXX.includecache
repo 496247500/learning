@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/mjc/workspace/learning/src/chapter9_9.cc
+../include/chapter9_11.h
+string
+-
+
+/home/mjc/workspace/learning/src/chapter9_12.cc
 iostream
 -
+chapter9_11.h
+/home/mjc/workspace/learning/src/chapter9_11.h
+
+/home/mjc/workspace/learning/src/chapter9_13.cc
+iostream
+-
+chapter9_11.h
+/home/mjc/workspace/learning/src/chapter9_11.h
 
