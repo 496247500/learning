@@ -16,9 +16,3 @@ stock00.h
 string
 -
 
-/home/mjc/workspace/learning/src/chapter10/src/usestock0.cc
-iostream
--
-stock00.h
-/home/mjc/workspace/learning/src/chapter10/src/stock00.h
-
