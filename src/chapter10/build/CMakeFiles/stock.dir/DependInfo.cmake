@@ -4,19 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mjc/workspace/learning/src/chapter10/src/stacker.cc" "/home/mjc/workspace/learning/src/chapter10/build/CMakeFiles/cpptest.dir/src/stacker.cc.o"
+  "/home/mjc/workspace/learning/src/chapter10/src/stack.cc" "/home/mjc/workspace/learning/src/chapter10/build/CMakeFiles/stock.dir/src/stack.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/home/mjc/workspace/learning/src/chapter10include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mjc/workspace/learning/src/chapter10/build/CMakeFiles/stock.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

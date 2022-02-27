@@ -10,12 +10,11 @@ set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
 # Set the project name
 # add headfile
 include_directories(include)
+add_library(stock  ./src/stack.h ./src/stack.cc)
 project (cpptest)
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/stock00.cc
-    ./src/stock00.h
-    ./src/usestock0.cc
+    ./src/stacker.cc
 )
 
 # Add an executable with the above sources
@@ -27,3 +26,4 @@ target_include_directories(cpptest
     PRIVATE
         ${PROJECT_SOURCE_DIR}include
 )
+TARGET_LINK_LIBRARIES(cpptest stock)

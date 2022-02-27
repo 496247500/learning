@@ -1,7 +1,6 @@
-// stock10.h --Stock class declarantion with constructors,destructor added 
-// version 00
-#ifndef STOCK10_H_
-#define STOCK10_H_
+// stock10.h --augmented version
+#ifndef STOCK20_H_
+#define STOCK20_H_
 
 #include <string>
 
@@ -19,6 +18,7 @@ class Stock {
    void buy (long num, double price);
    void sell (long num, double price);
    void updade (double price);
-   void show ();
+   void show () const;
+   const Stock & topval(const Stock &s) const;
 };
 #endif

@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib./src/stack.h.a  CMakeFiles/./src/stack.h.dir/src/stack.cc.o
+/usr/bin/ranlib lib./src/stack.h.a

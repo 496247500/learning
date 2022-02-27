@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstock.a  CMakeFiles/stock.dir/src/stack.cc.o
+/usr/bin/ranlib libstock.a

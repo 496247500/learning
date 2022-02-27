@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall  -rdynamic CMakeFiles/cpptest.dir/src/stock00.cc.o CMakeFiles/cpptest.dir/src/usestock0.cc.o  -o cpptest 
+/usr/bin/c++   -Wall  -rdynamic CMakeFiles/cpptest.dir/src/stacker.cc.o  -o cpptest  libstock.a 

@@ -1,11 +1,9 @@
-// stock00.cc -- implementing the Stock class
-// version 00
+// stock20.cc -- augmented version
 #include <iostream>
-#include "stock00.h"
+#include "stock20.h"
 Stock::Stock() {
-  std::cout << "Default constructor called\n";
   company = "no name";
-  shares = 0.0;
+  shares = 0;
   share_val = 0.0;
   total_val = 0.0;
 }
@@ -23,9 +21,7 @@ Stock::Stock(const std::string & co, long n, double pr) {
   share_val = pr;
   set_tot();
 }
-Stock::~Stock() {
-  std::cout << "Bye, " << company << "!\n";
-}
+Stock::~Stock() {}
 void Stock::buy(long num, double price) {
   if (num < 0) {
     std::cout << "Number of shares purchased can't be negative."
@@ -56,7 +52,7 @@ void Stock::updade(double price) {
   share_val = price;
   set_tot();
 }
-void Stock::show() {
+void Stock::show() const {
   using std::cout;
   using std::ios_base;
   ios_base::fmtflags orig =
@@ -69,4 +65,9 @@ void Stock::show() {
   cout << " Total Worth: $" << total_val << std::endl;
   cout.setf(orig,ios_base::floatfield);
   cout.precision(prec);
+}
+const Stock & Stock::topval(const Stock &s) const {
+  if (s.total_val > this->total_val) {
+    return  s;
+  } else return  *this;
 }

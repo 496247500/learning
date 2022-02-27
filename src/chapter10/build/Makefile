@@ -143,59 +143,72 @@ cpptest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
 .PHONY : cpptest/fast
 
-src/stock00.o: src/stock00.cc.o
+#=============================================================================
+# Target rules for targets named stock
 
-.PHONY : src/stock00.o
+# Build rule for target.
+stock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stock
+.PHONY : stock
 
-# target to build an object file
-src/stock00.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stock00.cc.o
-.PHONY : src/stock00.cc.o
+# fast build rule for target.
+stock/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock.dir/build.make CMakeFiles/stock.dir/build
+.PHONY : stock/fast
 
-src/stock00.i: src/stock00.cc.i
+src/stack.o: src/stack.cc.o
 
-.PHONY : src/stock00.i
-
-# target to preprocess a source file
-src/stock00.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stock00.cc.i
-.PHONY : src/stock00.cc.i
-
-src/stock00.s: src/stock00.cc.s
-
-.PHONY : src/stock00.s
-
-# target to generate assembly for a file
-src/stock00.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stock00.cc.s
-.PHONY : src/stock00.cc.s
-
-src/usestock0.o: src/usestock0.cc.o
-
-.PHONY : src/usestock0.o
+.PHONY : src/stack.o
 
 # target to build an object file
-src/usestock0.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/usestock0.cc.o
-.PHONY : src/usestock0.cc.o
+src/stack.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock.dir/build.make CMakeFiles/stock.dir/src/stack.cc.o
+.PHONY : src/stack.cc.o
 
-src/usestock0.i: src/usestock0.cc.i
+src/stack.i: src/stack.cc.i
 
-.PHONY : src/usestock0.i
+.PHONY : src/stack.i
 
 # target to preprocess a source file
-src/usestock0.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/usestock0.cc.i
-.PHONY : src/usestock0.cc.i
+src/stack.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock.dir/build.make CMakeFiles/stock.dir/src/stack.cc.i
+.PHONY : src/stack.cc.i
 
-src/usestock0.s: src/usestock0.cc.s
+src/stack.s: src/stack.cc.s
 
-.PHONY : src/usestock0.s
+.PHONY : src/stack.s
 
 # target to generate assembly for a file
-src/usestock0.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/usestock0.cc.s
-.PHONY : src/usestock0.cc.s
+src/stack.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock.dir/build.make CMakeFiles/stock.dir/src/stack.cc.s
+.PHONY : src/stack.cc.s
+
+src/stacker.o: src/stacker.cc.o
+
+.PHONY : src/stacker.o
+
+# target to build an object file
+src/stacker.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stacker.cc.o
+.PHONY : src/stacker.cc.o
+
+src/stacker.i: src/stacker.cc.i
+
+.PHONY : src/stacker.i
+
+# target to preprocess a source file
+src/stacker.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stacker.cc.i
+.PHONY : src/stacker.cc.i
+
+src/stacker.s: src/stacker.cc.s
+
+.PHONY : src/stacker.s
+
+# target to generate assembly for a file
+src/stacker.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/src/stacker.cc.s
+.PHONY : src/stacker.cc.s
 
 # Help Target
 help:
@@ -206,12 +219,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpptest"
-	@echo "... src/stock00.o"
-	@echo "... src/stock00.i"
-	@echo "... src/stock00.s"
-	@echo "... src/usestock0.o"
-	@echo "... src/usestock0.i"
-	@echo "... src/usestock0.s"
+	@echo "... stock"
+	@echo "... src/stack.o"
+	@echo "... src/stack.i"
+	@echo "... src/stack.s"
+	@echo "... src/stacker.o"
+	@echo "... src/stacker.i"
+	@echo "... src/stacker.s"
 .PHONY : help
 
 

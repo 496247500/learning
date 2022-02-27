@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mjc/workspace/learning/src/chapter10/src/stack.cc
+stack.h
+/home/mjc/workspace/learning/src/chapter10/src/stack.h
+
+/home/mjc/workspace/learning/src/chapter10/src/stack.h
+
