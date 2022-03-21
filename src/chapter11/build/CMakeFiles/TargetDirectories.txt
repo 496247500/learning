@@ -1,0 +1,4 @@
+/home/mjc/workspace/learning/src/chapter11/build/CMakeFiles/rebuild_cache.dir
+/home/mjc/workspace/learning/src/chapter11/build/CMakeFiles/edit_cache.dir
+/home/mjc/workspace/learning/src/chapter11/build/CMakeFiles/cpptest.dir
+/home/mjc/workspace/learning/src/chapter11/build/CMakeFiles/stock.dir

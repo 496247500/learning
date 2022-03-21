@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mjc/workspace/learning/src/chapter11/src/mytime2.h
+
+/home/mjc/workspace/learning/src/chapter11/src/usetime2.cc
+iostream
+-
+mytime2.h
+/home/mjc/workspace/learning/src/chapter11/src/mytime2.h
+

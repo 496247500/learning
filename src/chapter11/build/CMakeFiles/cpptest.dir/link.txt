@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall  -rdynamic CMakeFiles/cpptest.dir/src/usetime2.cc.o  -o cpptest  libstock.a 

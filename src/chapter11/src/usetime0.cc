@@ -1,0 +1,26 @@
+//usetime0.cc -- using the first draft of the Time class
+//compile usetime0.cc and mytime0.cc together
+#include <iostream>
+#include "mytime0.h"
+
+int main(int argc, char **argv) {
+  using std::cout;
+  using std::endl;
+  Time planning;
+  Time coding(2,40);
+  Time fixing(5,55);
+  Time total;
+
+  cout << "planning time = ";
+  planning.show();
+  cout << endl;
+
+  cout << "coding time = ";
+  coding.show();
+  cout << endl;
+
+  cout << "fixing time = ";
+  fixing.show();
+  cout << endl;
+  return 0;
+}
