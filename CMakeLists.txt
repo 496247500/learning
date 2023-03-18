@@ -13,8 +13,8 @@ include_directories(include)
 project (cpptest)
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/chapter9_12.cc
-    ./src/chapter9_13.cc
+    ./src/chapter13/tabtenn0.cc
+    ./src/chapter13/usett0.cc
 )
 
 # Add an executable with the above sources
