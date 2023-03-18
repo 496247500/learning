@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mjc/workspace/learning/src/chapter12/src/string1.cc
+cstring
+-
+string1.h
+/home/mjc/workspace/learning/src/chapter12/src/string1.h
+
+/home/mjc/workspace/learning/src/chapter12/src/string1.h
+iostream
+-
+

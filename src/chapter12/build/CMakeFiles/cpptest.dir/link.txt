@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall  -rdynamic CMakeFiles/cpptest.dir/src/placenew1.cc.o  -o cpptest  libstringbad.a 

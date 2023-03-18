@@ -1,0 +1,4 @@
+/home/mjc/workspace/learning/src/chapter12/build/CMakeFiles/rebuild_cache.dir
+/home/mjc/workspace/learning/src/chapter12/build/CMakeFiles/edit_cache.dir
+/home/mjc/workspace/learning/src/chapter12/build/CMakeFiles/cpptest.dir
+/home/mjc/workspace/learning/src/chapter12/build/CMakeFiles/stringbad.dir

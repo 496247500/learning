@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstringbad.a  CMakeFiles/stringbad.dir/src/string1.cc.o
+/usr/bin/ranlib libstringbad.a
