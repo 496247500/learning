@@ -10,19 +10,20 @@ set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
 # Set the project name
 # add headfile
 include_directories(include)
-project (cpptest)
-# Create a sources variable with a link to all cpp files to compile
+add_library(tabtenis ./src/chapter13/tabtenn1.cc)
+# project (cpptest)
+# # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-    ./src/chapter13/tabtenn0.cc
-    ./src/chapter13/usett0.cc
+    ./src/chapter13/usett1.cc
 )
 
-# Add an executable with the above sources
+# # Add an executable with the above sources
 add_executable(cpptest ${SOURCES})
 
 # Set the directories that should be included in the build command for this target
 # when running g++ these will be included as -I/directory/path/
-target_include_directories(cpptest
-    PRIVATE
-        ${PROJECT_SOURCE_DIR}include
-)
+# target_include_directories(cpptest
+#     PRIVATE
+#         ${PROJECT_SOURCE_DIR}include
+# )
+target_link_libraries (cpptest tabtenis)
