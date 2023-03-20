@@ -27,3 +27,9 @@ add_executable(cpptest ${SOURCES})
 #         ${PROJECT_SOURCE_DIR}include
 # )
 target_link_libraries (cpptest tabtenis)
+
+
+add_library(brass ./src/chapter13/brass.cc)
+
+add_executable(usebrass1 ./src/chapter13/usebrass1.cc)
+target_link_libraries (usebrass1 brass)
